@@ -1,0 +1,32 @@
+.table{
+    border-collapse: collapse;
+    box-shadow: 4px 4px 12px -3px #000000;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+.tableRow{
+padding: 25px 155px;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 35px;
+  color:rgb(98, 105, 103);
+ 
+}
+.tableHead {
+    composes: tableRow;
+    background-color:rgb(24, 245, 201);
+     color: rgb(255, 255, 255);
+}
+
+.tableItem{
+     composes: tableRow;
+}
+
+
+.tableItem:nth-child(even) {
+  background-color: rgb(228, 225, 225);
+}

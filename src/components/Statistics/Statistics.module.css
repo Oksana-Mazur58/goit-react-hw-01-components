@@ -1,0 +1,35 @@
+.sections_statistics{
+
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.statistics_title{
+    font-size: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color:  rgb(130, 130, 130);
+   
+}
+
+.statistics_list{
+  display: flex;
+  justify-content: center;
+  
+}
+.statistics_item{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 10px 20px;
+
+}
+.statistics_lable{
+font-size: 20px;
+margin-bottom: 5px;
+color: rgb(255, 255, 255);;
+}
+.statistics_percentage{
+font-size: 35px;
+color:rgb(255, 255, 255);;
+}
